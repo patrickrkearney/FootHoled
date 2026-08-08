@@ -33,3 +33,8 @@ FootHoled is designed to be a modular handheld platform for wireless security re
 - Plugin architecture
 - Custom PCB
 - FootHoled OS
+
+
+## DEFCON 34 Update: Project is incomplete at the moment, but the idea and desire to complete it are strong, it will just have to be post con. Whether you randomly found one of my stickers or if we spoke and I gave you one - keep an eye out over the next 4-6 weeks. In my rush to get it done before DC, I failed but after speaking with a few people, I am encouraged to see it through. I will return to the FootHoled development when I get home next week. Stay Hydrated and HACK THE PLANET!
+
+
