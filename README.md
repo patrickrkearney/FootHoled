@@ -13,6 +13,8 @@ Open hardware ESP32 cyber platform featuring GPS, rechargeable battery power, ex
 An open-source portable cybersecurity platform built around the ESP32.
 
 FootHoled is designed to be a modular handheld platform for wireless security research, GPS-enabled reconnaissance, and hardware experimentation.
+or you can think of it as 
+a location-aware, privacy-conscious reconnaissance platform that correlates observations from multiple sources, can be physically and programmatically expanded, and integrates with a desktop analysis environment.
 
 ## Current Features
 
