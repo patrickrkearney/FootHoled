@@ -1,26 +1,30 @@
-idf_component_register(
+﻿idf_component_register(
     SRCS
         "main.cpp"
+        "board_adapter.cpp"
+        "ina228.cpp"
+        "mcp23017.cpp"
+        "qmi8658.cpp"
+        "settings.cpp"
+        "splash_logo.cpp"
         "ui.cpp"
         "wifi_scan.cpp"
-        "splash_logo.cpp"
-        "board_adapter.cpp"
-        "settings.cpp"
-        "mcp23017.cpp"
-        "ina228.cpp"
-        "qmi8658.cpp"
-    INCLUDE_DIRS "."
+
+    INCLUDE_DIRS
+        "."
+
     REQUIRES
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
         esp_driver_ledc
         esp_driver_gpio
         esp_driver_i2c
         esp_driver_spi
         esp_lcd
         esp_timer
-        esp_wifi
-        esp_event
-        esp_netif
-        nvs_flash
+        esp_psram
         lvgl
         espressif__esp_lcd_st7796
 )
